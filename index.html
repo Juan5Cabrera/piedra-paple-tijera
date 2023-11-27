@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <div class="marcador">
+            <div class="bg-1">
+                <h2>Rival</h2>
+                <img class="bg-mano1" id="rivalImg" src="./img/piedra.png" alt="" id="" width="200px">
+            </div>
+
+                
+            
+            <div class="pts">
+                <p>
+                    <div class="puntos " id="puntos">
+                        <div id="puntos-rival" class="puntos-rival disabled">
+                            <span>Rival 0</span>
+                        </div>
+                        <span>-</span>
+
+                        <span id="puntos-jugador" class="puntos-jugador disabled">0 Jugador</span>
+                    </div>
+                    <br>
+                    <p class="ganador disabled" id="instrucciones">GANADOR</p>
+                    <br>
+                    <div id="vs">
+                        <span class="v">V</span>
+                        <span class="s">S</span>
+                    </div>
+                </p>
+            </div>
+            
+            
+
+            <div class="bg-2">
+                <img id="userImg" class="bg-mano2" src="./img/piedra.png" alt="" width="200px">
+
+                <div class="opcion" id="opcion">
+                    <h2>Elige una opción</h2>
+                    <div class="armas">
+                        <button class="arma" id="piedra"><img src="./img/piedra.png" alt="" width="50px"></button>
+                        <button class="arma" id="papel"><img src="./img/papel.png" alt="" width="50px"></button>
+                        <button class="arma" id="tijera"><img src="./img/tijera.png" alt="" width="50px"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="msj disabled" id="msj">
+            <div>
+                <p>Usaste <span class="eleccion" id="eleccion-jugador"></span>
+                    <br>
+                    Tu rival uso <span class="eleccion" id="eleccion-rival">Tijera</span>
+                    </p>
+            </div>
+            
+
+            <p id="ganaste-punto">Ganaste un punto</p>
+        </div>
+
+        <button class="btn-resert disabled" id="resert">Reiniciar juego</button>
+    </main>
+
+    
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

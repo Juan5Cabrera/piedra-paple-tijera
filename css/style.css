@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19,26,34);
+    color: rgb(240, 236, 236);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.disabled{
+    display: none;
+}
+
+.bg-1{
+    background-color: rgb(187, 17, 17);
+    border: 5px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pts{
+    color: black;
+    background-color: white;
+}
+
+.bg-2{
+    background-color: blue;
+    border: 5px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.v{
+    color: blue;
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+}
+
+.s{
+    color: rgb(187, 17, 17);
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+}
+
+.puntos{
+    display: flex;
+    justify-content: center;
+}
+
+.puntos-rival{
+    background-color: rgb(187, 17, 17);
+    border-radius: 7px;
+    padding: 2px;
+    width: 100px;
+    font-family: 'Lilita One', cursive;
+}
+
+.puntos-jugador{
+    background-color: blue;
+    border-radius: 7px;
+    padding: 2px;
+    width: 100px;
+    font-family: 'Lilita One', cursive;
+}
+
+.ganador{
+    font-family: 'Lilita One', cursive;
+    color: goldenrod;
+    font-size: 30px;
+}
+
+.armas{
+    padding: 4px;
+}
+
+.btn-resert{
+    border: 0;
+    line-height: 1;
+    background-color: beige;
+    color: purple;
+    font-size: 12px;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+} 
+
+/* .v{
+    color: black;
+}
+
+.ganador{
+    color: black;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+}
+
+.instrucciones{
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.resultado{
+    color: black;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+}
+
+.marcador{
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.bg-mano1{
+    background-color: blue;
+
+    border-radius: 20px;
+    margin-right: 2rem;
+}
+
+.bg-mano2{
+    background-color: red;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+
+.nombre{
+    position: absolute;
+    color: beige;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 2px solid goldenrod;
+}
+
+.nombre-jugador{
+    right: 73%;
+}
+
+.nombre-rival{
+    left: 75%;
+}
+
+.pts{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 150px;
+    height: 250px;
+}
+
+.historial{
+    font-size: 18px;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.puntos{
+    font-size: 1.6rem;
+    color: black;
+    background-color: purple;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.opcion{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.opcion h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.armas{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.arma{
+    background-color: beige;
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+
+.msj{
+    margin-bottom: 2rem;   
+    line-height: 1.8;
+}
+
+.eleccion{
+    color: purple;
+    background-color: goldenrod;
+    border-radius: .25rem;
+    padding-inline: .25rem;
+}
+
+.btn-resert{
+    border: 0;
+    line-height: 1;
+    background-color: beige;
+    color: purple;
+    font-size: 12px;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+} */
